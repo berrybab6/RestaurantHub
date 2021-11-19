@@ -1,0 +1,78 @@
+.menus h1{
+    text-align: center;
+}
+
+.menus div{
+    display: flex;
+    justify-content: center;
+}
+
+.menuPage{
+    display: flex;
+    flex-direction: row;
+
+}
+.foodname{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    justify-content: center;
+}
+.fooditem{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2%;
+    background-color: rgb(15, 2, 2);
+    border-radius: 12px;
+    padding: 4%;
+    
+    justify-content: center;
+}
+
+.fooditem.drink {
+    background-color: coral !important;
+
+}
+.fooditem h1{
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.category{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    color:rgb(7, 7, 7);
+}
+.titlename{
+    text-align: center;
+    padding-top: 4%;
+    color: rgb(201, 199, 198);
+}
+
+.fooditem .namefood{
+    color: coral;
+    margin-bottom: 5%;
+}
+.fooditem .foodprice{
+    font-size: 20px;
+}
+
+.fooditem.drink .name{
+    color: black;
+}
+.foodpage{
+    background-color: whitesmoke;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 3%;
+}
+
+.menuss{
+    background-color: rgb(14, 6, 2);
+}
