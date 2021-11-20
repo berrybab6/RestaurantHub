@@ -8,6 +8,7 @@ const FOODMENUS = gql`query ($menuId:Int!){
     menus(menuId:$menuId){
      item{
          name,
+         img,
          price
      }
     
@@ -15,7 +16,7 @@ const FOODMENUS = gql`query ($menuId:Int!){
    }`;
 
 const Foods = ({detail}) =>{
-
+var url = "http://127.0.0.1:8000/"
 const {data, loading, error} = useQuery(FOODMENUS,{
     variables:{
         menuId:detail
@@ -35,7 +36,7 @@ if (loading) {
            {
                        
      data.menus.map(rest =><div class="coll" key={rest.item.name} className="fooditem">
-                  
+     <img src={url + rest.item.img}/>             
      < h1 className="namefood">{rest.item.name}</h1>
      <h1 className="foodprice">price: {rest.item.price}$</h1>
      

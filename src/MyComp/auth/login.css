@@ -1,0 +1,16 @@
+
+.login{
+    margin-top: 6%;
+    height: 400px;
+    margin-left: 6%;
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(27, 25, 24);
+}
+
+.login h1{
+    text-align: center;
+    color: wheat;
+}

@@ -6,6 +6,11 @@
     display: flex;
     justify-content: center;
 }
+.fooditem:hover{
+    
+    /* background-color:rgb(24, 20, 20); */
+    opacity: 0.5;
+}
 
 .menuPage{
     display: flex;
@@ -17,7 +22,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 2%;
-    justify-content: center;
+    justify-content: left;
 }
 .fooditem{
     display: flex;
@@ -39,6 +44,9 @@
     color: white;
     text-align: center;
     margin-top: 2%;
+}
+.fooditem img{
+    max-width: 250px;
 }
 
 .category{

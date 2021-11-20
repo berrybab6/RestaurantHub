@@ -26,7 +26,7 @@ const Home1=()=>{
     const [menu, setMenu] = useState(null);
   
     const { data, loading, error } = useQuery(RESTAURANT);
-    var url = "http://127.0.0.1:8000/upload/";
+    var url = "http://127.0.0.1:8000/";
 
     const someEventHandler = ({title, named}) => {
       
